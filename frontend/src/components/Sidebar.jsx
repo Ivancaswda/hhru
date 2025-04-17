@@ -95,7 +95,7 @@ const Sidebar = () => {
             </div> */}
             <div className='border-t border-base-100  '>
                 <nav>
-                    <ul className='space-y-2 w-[60px] sm:w-full'>
+                    <ul className='space-y-2 w-[80px] sm:w-full'>
                         <li>
                             <Link
                                 to='/'
