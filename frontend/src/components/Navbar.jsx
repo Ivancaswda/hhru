@@ -85,7 +85,7 @@ const Navbar = () => {
 
                </div>
 
-                <button className='font-semibold px-8 rounded-lg text-[13px] py-[3px] bg-stone-50 border border-gray-200 text-gray-700'>
+                <button className='font-semibold px-8 rounded-lg text-[13px] py-[3px] bg-stone-50 border border-gray-200 text-gray-700 hidden sm:block'>
                     Создать бизнес аккаунт
                 </button>
             </div>
