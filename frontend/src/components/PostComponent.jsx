@@ -22,9 +22,9 @@ const PostComponent = ({post}) => {
 
 
     },[getPosts])
-    console.log(post)
 
-    console.log(showShareModal)
+
+
 
     const handleRemovePost = async (event) => {
         event.preventDefault()
