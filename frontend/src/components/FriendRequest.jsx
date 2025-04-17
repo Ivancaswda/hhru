@@ -12,7 +12,7 @@ const FriendRequest = ({connectionRequest, onRequestHandled}) => {
     const fetchStatus = async () => {
 
         const response = await axiosInstance.get(`/connection/status/${authUser.user._id}`)
-        console.log(response.data.status)
+       
 
 
         setUserStatus(response.data.status);  // Устанавливаем статус ТОЛЬКО для этого пользователя
