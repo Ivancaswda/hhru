@@ -31,8 +31,7 @@ const ChatContainer = () => {
         handleEmojiSelect(emojiObject.emoji)
     }
 
-    console.log(messages)
-    console.log(authUser)
+
     const handleImageChange = (event) => {
 try {
 
@@ -75,7 +74,7 @@ try {
             if (!text.trim() && !imagePreview) {
                 return
             }
-            console.log(imagePreview)
+         
             await sendMessage({text:text.trim(), image: imagePreview})
 
             setText('')
