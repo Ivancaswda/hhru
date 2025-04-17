@@ -19,7 +19,7 @@ const NotificationPage = () => {
             const response = await axiosInstance.get('/notification')
 
             setNotifications(response.data.notifications)
-            console.log(response.data)
+        
         } catch (error) {
 
             toast.error(error.message)
